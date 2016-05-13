@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface People : NSObject<NSCoding>{
+@interface People : NSObject{
     
     NSString* _nationality;
 

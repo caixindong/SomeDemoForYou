@@ -11,9 +11,6 @@
 #import <objc/runtime.h>
 #import <objc/message.h>
 
-/**
- * 修改调用方法
- **/
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         People* p = [[People alloc]init];

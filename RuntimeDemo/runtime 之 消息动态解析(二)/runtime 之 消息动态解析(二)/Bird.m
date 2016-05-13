@@ -18,6 +18,7 @@
 
 //第二步，不指定备选对象响应sselector
 -(id)forwardingTargetForSelector:(SEL)aSelector{
+    
     return nil;
 }
 

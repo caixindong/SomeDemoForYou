@@ -10,5 +10,5 @@
 
 @interface Bird : NSObject
 @property(nonatomic,copy)NSString* name;
-
+-(void)sing;
 @end

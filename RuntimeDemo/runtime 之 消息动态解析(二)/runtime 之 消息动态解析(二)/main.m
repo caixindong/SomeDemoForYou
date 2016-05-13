@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Bird* b = [[Bird alloc]init];
         b.name = @"小鸟";
-        objc_msgSend(b, @selector(sing));
+        [b sing];
     }
     return 0;
 }

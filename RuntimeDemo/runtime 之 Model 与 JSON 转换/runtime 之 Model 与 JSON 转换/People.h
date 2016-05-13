@@ -8,14 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface People : NSObject<NSCoding>
+@interface People : NSObject
 
 @property(nonatomic,copy)NSString* name;
 @property(nonatomic,strong)NSNumber* age;
 
 
 /**
- * JSON 转 Model
+ * 字典 转 Model
  **/
 -(instancetype)initWithDictionary:(NSDictionary*) dict;
 

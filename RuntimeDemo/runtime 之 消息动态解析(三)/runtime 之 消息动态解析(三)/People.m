@@ -34,7 +34,7 @@
     [anInvocation invokeWithTarget:self];
 }
 
-//若不实现forwardInvocation，则会调用此方法
+//若不实现forwardInvocation，则会调用此方法(可以注释掉forwardInvocation方法来做实验)
 -(void)doesNotRecognizeSelector:(SEL)aSelector{
     NSLog(@"消息无法处理:%@",NSStringFromSelector(aSelector));
 }
